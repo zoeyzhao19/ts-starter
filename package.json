@@ -2,6 +2,7 @@
   "name": "ts-starter",
   "version": "0.1.0",
   "description": "",
+  "private": true,
   "scripts": {
     "dev": "unbuild --stub",
     "build": "rimraf dist && unbuild",
