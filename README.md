@@ -1,1 +1,1 @@
-### Inspired by antfu
+### Inspired by [antfu](https://github.com/antfu/starter-ts)
