@@ -1,8 +1,7 @@
 {
-  "name": "ts-starter",
+  "name": "pck-name",
   "version": "0.1.0",
   "description": "",
-  "private": true,
   "scripts": {
     "dev": "unbuild --stub",
     "build": "rimraf dist && unbuild",
@@ -12,8 +11,14 @@
     "lint": "eslint --fix .",
     "bump": "bump --commit --tag --push"
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/zoeyzhao19/pck-name.git"
+  },
+  "homepage": "https://github.com/zoeyzhao19/pck-name#readme",
+  "bugs": "https://github.com/zoeyzhao19/pck-name/issues",
   "keywords": [],
-  "author": "",
+  "author": "zoeyzhao19",
   "license": "ISC",
   "main": "./dist/index.mjs",
   "module": "./dist/index.mjs",
@@ -39,8 +44,10 @@
     "rimraf": "^3.0.2",
     "typescript": "^4.8.2",
     "unbuild": "^0.8.9",
-    "vite": "^3.0.9",
     "vitest": "^0.22.1"
+  },
+  "dependencies": {
+    "vite": "^3.0.9"
   },
   "packageManager": "pnpm@7.9.0"
 }
