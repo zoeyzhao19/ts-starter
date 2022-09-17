@@ -1,8 +1,15 @@
 {
-  "name": "ts-starter",
+  "name": "pkg-name",
   "version": "0.1.0",
   "description": "",
   "private": true,
+  "type": "module",
+  "homepage": "https://github.com/zoeyzhao19/pkg-name#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zoeyzhao19/pkg-name.git"
+  },
+  "bugs": "https://github.com/zoeyzhao19/pkg-name/issues",
   "scripts": {
     "dev": "unbuild --stub",
     "build": "rimraf dist && unbuild",
@@ -13,11 +20,19 @@
     "bump": "bump --commit --tag --push"
   },
   "keywords": [],
+  "sideEffects": false,
   "author": "",
   "license": "ISC",
   "main": "./dist/index.mjs",
   "module": "./dist/index.mjs",
   "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "require": "./dist/index.cjs",
+      "import": "./dist/index.mjs"
+    }
+  },
   "files": [
     "dist"
   ],
@@ -32,7 +47,6 @@
     "rimraf": "^3.0.2",
     "typescript": "^4.8.2",
     "unbuild": "^0.8.9",
-    "vite": "^3.0.9",
     "vitest": "^0.22.1"
   },
   "packageManager": "pnpm@7.9.0"
