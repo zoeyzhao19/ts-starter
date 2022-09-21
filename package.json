@@ -1,7 +1,15 @@
 {
-  "name": "pck-name",
-  "version": "0.1.1",
+  "name": "pkg-name",
+  "version": "0.1.0",
   "description": "",
+  "private": true,
+  "type": "module",
+  "homepage": "https://github.com/zoeyzhao19/pkg-name#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zoeyzhao19/pkg-name.git"
+  },
+  "bugs": "https://github.com/zoeyzhao19/pkg-name/issues",
   "scripts": {
     "dev": "unbuild --stub",
     "build": "rimraf dist && unbuild",
@@ -18,16 +26,17 @@
   "homepage": "https://github.com/zoeyzhao19/pck-name#readme",
   "bugs": "https://github.com/zoeyzhao19/pck-name/issues",
   "keywords": [],
-  "author": "zoeyzhao19",
+  "sideEffects": false,
+  "author": "",
   "license": "ISC",
   "main": "./dist/index.mjs",
   "module": "./dist/index.mjs",
   "types": "./dist/index.d.ts",
   "exports": {
     ".": {
+      "types": "./dist/index.d.ts",
       "require": "./dist/index.cjs",
-      "import": "./dist/index.mjs",
-      "types": "./dist/index.d.ts"
+      "import": "./dist/index.mjs"
     }
   },
   "files": [
