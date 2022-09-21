@@ -19,12 +19,6 @@
     "lint": "eslint --fix .",
     "bump": "bump --commit --tag --push"
   },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/zoeyzhao19/pck-name.git"
-  },
-  "homepage": "https://github.com/zoeyzhao19/pck-name#readme",
-  "bugs": "https://github.com/zoeyzhao19/pck-name/issues",
   "keywords": [],
   "sideEffects": false,
   "author": "",
