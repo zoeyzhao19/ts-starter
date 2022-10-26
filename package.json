@@ -42,14 +42,15 @@
     "@typescript-eslint/parser": "^5.36.1",
     "eslint": "^8.23.0",
     "eslint-config-prettier": "^8.5.0",
+    "eslint-import-resolver-typescript": "^3.5.2",
     "eslint-plugin-import": "^2.26.0",
     "eslint-plugin-prettier": "^4.2.1",
     "prettier": "^2.7.1",
     "rimraf": "^3.0.2",
     "typescript": "^4.8.2",
     "unbuild": "^0.8.9",
-    "vitest": "^0.22.1",
-    "vite": "^3.0.9"
+    "vite": "^3.0.9",
+    "vitest": "^0.22.1"
   },
   "packageManager": "pnpm@7.9.0"
 }
