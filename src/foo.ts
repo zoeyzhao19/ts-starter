@@ -1,6 +1,7 @@
-// foo.js
-const foo = {
-  bar: 1,
+export type Foo = {
+  one: number;
 };
-export default foo;
-export const bar = 'baz';
+
+export const foo = {
+  one: '1',
+};

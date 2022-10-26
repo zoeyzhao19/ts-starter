@@ -1,6 +1,5 @@
-import foo from './foo';
-const bar = foo.bar;
+import type { Foo } from './foo';
+import { foo } from './foo.js';
 
-export const one = 1;
-export const two = 2;
-export const three = 3;
+export { foo };
+console.log({ foo });
