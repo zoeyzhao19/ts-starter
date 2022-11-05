@@ -2,7 +2,6 @@
   "name": "pkg-name",
   "version": "0.1.4",
   "description": "",
-  "private": true,
   "type": "module",
   "homepage": "https://github.com/zoeyzhao19/pkg-name#readme",
   "repository": {
