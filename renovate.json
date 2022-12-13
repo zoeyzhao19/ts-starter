@@ -7,8 +7,14 @@
   ],
   "packageRules": [
     {
-      "matchUpdateTypes": ["major"],
-      "dependencyDashboardApproval": true
+      "matchUpdateTypes": [
+        "minor",
+        "patch",
+        "pin",
+        "digest"
+      ],
+      "automerge": true
     }
-  ]
+  ],
+  "rangeStrategy": "bump"
 }
