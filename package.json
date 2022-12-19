@@ -15,7 +15,7 @@
     "typecheck": "tsc --noEmit",
     "test": "vitest",
     "format": "prettier --write .",
-    "lint": "eslint --fix .",
+    "lint": "eslint --fix ./src/**",
     "bump": "bump --commit --tag --push"
   },
   "keywords": [],
