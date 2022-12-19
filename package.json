@@ -47,14 +47,14 @@
     "@jsdevtools/version-bump-prompt": "^6.1.0",
     "@typescript-eslint/eslint-plugin": "^5.46.1",
     "@typescript-eslint/parser": "^5.46.1",
-    "eslint": "^8.29.0",
+    "eslint": "^8.30.0",
     "eslint-config-prettier": "^8.5.0",
     "eslint-plugin-import": "^2.26.0",
     "eslint-plugin-prettier": "^4.2.1",
     "prettier": "^2.8.1",
     "rimraf": "^3.0.2",
     "typescript": "^4.9.4",
-    "vitest": "^0.25.8",
+    "vitest": "^0.26.0",
     "unbuild": "^1.0.2"
   },
   "packageManager": "pnpm@7.18.2"
