@@ -10,8 +10,6 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
-        with:
-          fetch-depth: 0
       - run: corepack enable
 
       - name: Set node
@@ -20,6 +18,6 @@ jobs:
           node-version: 16
           cache: 'pnpm'
 
-      - run: npx changelogithub
+      - run: pnpm changelogithub
         env:
           GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}
